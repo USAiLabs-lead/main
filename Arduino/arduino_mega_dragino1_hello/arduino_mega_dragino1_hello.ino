@@ -166,7 +166,7 @@ void setup() {
   while (!Serial)
     ;
   Serial.begin(9600);
-  Serial.println(F("Starting  arduino_mega_dragino1_hello"));
+  Serial.println(F("Starting arduino_mega_dragino1_hello"));
 
   // LMIC init
   os_init();
